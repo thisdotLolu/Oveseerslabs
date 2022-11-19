@@ -1,0 +1,31 @@
+.showcase_inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase_top{
+    display:flex;
+}
+
+.showcase_bottom{
+    display:flex;
+}
+
+.showcase_inner video{
+    width:45vw;
+}
+
+@media screen and (max-width:950px){
+    .showcase_top{
+        flex-direction:column;
+    }
+    .showcase_bottom{
+        flex-direction:column;
+    }
+    .showcase_inner video{
+        width:100%;
+    }
+}

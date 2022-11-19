@@ -1,0 +1,60 @@
+/* #36159a
+#8f80b9 */
+
+
+.q3, .q4, .q4-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 20px #bf40bf;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.roadmap_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.q3 video, .q4 video,.q4-2 video{
+    width:45vw;
+    height:80vh;
+}
+
+.roadmap_inner h1{
+    text-align: center;
+}
+
+
+.q3 li, .q4 li, .q4-2 li{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.q3_inner, .q4-2_inner,.q4_inner{
+    background-color: #272727;
+    height: 80vh;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;    
+}
+
+
+@media screen and (max-width:750px){
+.q3, .q4, .q4-2{
+    flex-direction: column;
+}
+.q3 video, .q4 video,.q4-2 video{
+    width: 90vw;
+    height: 40vh;
+}
+.q3_inner, .q4-2_inner,.q4_inner{
+    width: 100%;
+    border-radius: 0;
+}
+}
+
+
+
+
