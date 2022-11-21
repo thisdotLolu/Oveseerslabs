@@ -1,19 +1,21 @@
 import React from 'react'
 import './Roadmap.css'
+import Zoom from 'react-reveal/Zoom'
 
 
 const Roadmap = () => {
   return (
-    <div className='roadmap_container'>
+    <Zoom>
+        <div className='roadmap_container'>
         <div className='roadmap_inner'>
            <h1>ROAD MAP</h1>
+           <div className='underline'></div>
             <div className='q3'>
-            <video
-                loop
-                // controls
-                src='./Videos/book_bronze.mp4'
-                type="video/mp4"
+            <img
+            src='/book_bronze_AdobeExpress.gif'
+            alt='book bronze'
             />
+            
             <div className='q3_inner'>
                 <h1>Q3 2022 - The Beginning</h1>
                 <ul>
@@ -35,11 +37,9 @@ const Roadmap = () => {
             </div>
             
             <div className='q4'>
-            <video
-                loop
-                // controls
-                src='./Videos/book_bronze.mp4'
-                type="video/mp4"
+            <img
+            src='/book_red_AdobeExpress.gif'
+            alt='book bronze'
             />
             <div className='q4_inner'>
             <h1>Q4 2022 - The Prep</h1>
@@ -57,11 +57,9 @@ const Roadmap = () => {
 
 
             <div className='q4-2'>
-            <video
-                loop
-                // controls
-                src='./Videos/book_bronze.mp4'
-                type="video/mp4"
+            <img
+            src='/book_silver_AdobeExpress.gif'
+            alt='book bronze'
             />
             <div className='q4-2_inner'>
             <h1>Q4 2022 - The BlastOff</h1>
@@ -78,6 +76,7 @@ const Roadmap = () => {
             
         </div>
     </div>
+    </Zoom>
   )
 }
 

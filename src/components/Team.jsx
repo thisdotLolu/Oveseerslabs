@@ -1,28 +1,34 @@
 import React from 'react'
 import './Team.css'
+import Zoom from 'react-reveal/Zoom'
 
 
 const Team = () => {
   return (
-    <div className='team_container'>
-        <div className='team_inner'>
-            <h1>TEAM</h1>
+    <Zoom>
+        <div className='team_container'>
+        <div className='team_inner'>  
+        <h1>
+                TEAM
+            </h1>   
+            <div className='underline'></div>       
             <div className='team_top'>
+            
             <div className='team_each founder'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
                 />
-                    <b>Thot</b>
-                    <p>I’m Thoth 28yr old, and the  founder of Overseers Labs.
-I’v been in the space for some time as a collector and prospective student of everything web3 and finally decided it was time make my contribution to the ecosystem.</p>
+                    <b>Thoth</b>
+                    <p>I’m Thoth 28yr old, and the founder of Overseers Labs.
+I’ve been in the space for some time as a collector and prospective student of everything web3 and finally decided it was time to make my contribution to the ecosystem.</p>
                 </div>
                 <div className='team_each cofounder'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
                 />
                     <b>Yen</b>
-                    <p>Co - founder .I am in crypto and NFT - sphere about 2 years. During this time, I have gone from a person who is simply interested in this area to a person who wants to promote it to the masses and believes that this is the future. I was working / current working for such projects as: MEXC Global, Rentii, UTLTY, Nomads, Underworld Degens. 
-IRL i have bachelor degree in marketing and was working for big state company as marketing engineer.</p>
+                    <p>Co - founder of Overseers Labs. I've been in the crypto and NFT sphere for about 2 years. During this time, I have gone from a person who is simply interested in this area to a person who wants to promote it to the masses and believes that this is the future. I was working / currently working for projects such as: MEXC Global, Rentii, UTLTY, Nomads, Underworld Degens. 
+IRL, I have bachelor's degree in marketing and was working for a big state company as marketing engineer.</p>
                 </div>
                 <div className='team_each 9ja_boy'>
                 <img src='/logo_blue.jpg'
@@ -30,29 +36,29 @@ IRL i have bachelor degree in marketing and was working for big state company as
                 />
                     <b>THAT9JABOY</b>
                     <p>
-                    <b>The Overseer watch mastoor.</b>I am a formal customer service supervisor which reflects the passion for the post i held. I’ve been in the space for more than a year and work as a moderator for few servers. I focus on mindset, studying and i am a “In for a penny in for a pound” type.</p>
+                    <b>The Overseer watch mastoor.</b> I am a former customer service supervisor which reflects the passion for the post i held. I’ve been in the space for more than a year and working as a moderator for few servers. I focus on mindset, studying and I am the “In for a penny in for a pound” type.</p>
                 </div>
                 <div className='team_each abe'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
                 />
                 <b>Abe</b>
-                <p>I’m a Web3 enthusiast,dynamic community manager,trained with excellent communicating abilities,a critical thinker who crave for project growths,encourages audience engagement,studies behavioral patterns of members and provide extensive support.</p>
+                <p>I’m a Web3 enthusiast, dynamic community manager, trained with excellent communicating abilities, a critical thinker who craves for project growths, encourages audience engagement, studies behavioral patterns of members and provides extensive support.</p>
                 </div>
                 <div className='team_each godfrey'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
                 />
                 <b>Godfrey</b>
-                <p>I’m a collab manager,Art lover,crypto trader and introvert🙂.
-I crave for learning new things about community growth</p>
+                <p>I’m a collab manager, Art lover, crypto trader and introvert🙂.
+I crave learning new things about community growth</p>
                 </div>
                 <div className='team_each godmaiden'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
                 />
                     <b>GodMaiden</b>
-                    <p>24 yo , Digital Artist/Classic Portrait Artist,
+                    <p>24 yo, Digital Artist/Classic Portrait Artist,
 Current Community manager at Sphynx Underground Society
 CM at Soulless Skellies
 Ex Mod at Ukiyo, The kings, and many other smaller projects.</p>
@@ -79,7 +85,7 @@ I also love music, any type of music.</p>
                 alt='pfp'
                 />
                     <b>Buggie</b>
-                    <p>Buggie Emmanuel,21 years old , Long term of experience in Community Moderation and Collaborating Manager,also a crypto /NFT enthusiast. I’ll be putting my best effort towards the progress of Overseers Lab</p>
+                    <p>Buggie Emmanuel, 21 years old, Long term experience in Community Moderation and Collaboration Management, also a crypto /NFT enthusiast. I’ll be putting my best effort towards the progress of Overseers Lab</p>
                 </div> 
                 <div className='team_each moore'>
                 <img src='/logo_blue.jpg'
@@ -91,6 +97,7 @@ I also love music, any type of music.</p>
             </div>
         </div>
     </div>
+</Zoom>
   )
 }
 

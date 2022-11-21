@@ -1,19 +1,25 @@
 import './About.css'
 import React from 'react'
 import Video from './Video'
+import Zoom from 'react-reveal/Zoom'
+
+
+
 
 const About = () => {
   return (
+    <Zoom>
     <div className='about_container'>
         <div className='about_inner'>
             <div className='about_top_left'>
               <Video source='/Videos/book_red.mp4'/>
-              <Video source='/Videos/book_silver.mp4'/>
+              <Video source='/Videos/book_bronze.mp4'/>
             </div>
             <div className='about_top_right'>
-              <h2>
+                <h2>
                 THE 9 TENANTS OF OUR ETHOS
                 </h2>
+                <div className='underline'></div>
               <div>
               <h3>
               <img
@@ -116,6 +122,7 @@ const About = () => {
             </div> 
         </div>
     </div>
+    </Zoom>
   )
 }
 

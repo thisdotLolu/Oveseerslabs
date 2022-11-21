@@ -9,6 +9,7 @@ const Hero = () => {
 
     
   return (
+    <>
     <div className='hero_container'>
         <div className='hero_inner'>
             <div className='hero_text'>
@@ -33,6 +34,7 @@ const Hero = () => {
 
                
             <button className='Mint_Now'>Mint Now</button>
+            <a href='https://discord.gg/BNEAYauekZ'><button className='Mint_Now'>Discord</button></a>
             
            <Video
            source='/Videos/book_gold.mp4'
@@ -40,6 +42,7 @@ const Hero = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

@@ -7,8 +7,12 @@
     max-width: 1200px;
     margin:0 auto;
 }
+.mobile_image{
+    display:none;
+    width: 100%;
+}
 
-video{
+.hero_container video{
     width: 900px;
     border-radius: 1rem;
 }
@@ -60,7 +64,8 @@ video{
     color:white;
     font-size:1.2rem;
     /* background-color: linear-gradient(to right, 0% #BF40BF, #ff99cc 100%); */
-    background: linear-gradient(139deg, #BF40BF 30%, #ff99cc);
+    background: linear-gradient(139deg, #8F80B9 30%, #ff99cc);
+    margin-top: 20px;
 }
 
 .fn_title{
@@ -142,6 +147,7 @@ video{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .text_container span{
@@ -151,7 +157,6 @@ video{
     animation-timing-function: linear;
     font-size:5rem;
     font-family:aArang;
-    transition: all 2s linear 1s;
 }
 
 @keyframes animate{
@@ -177,20 +182,20 @@ video{
 
 .text_container > span:nth-child(2){
     animation-delay:0.25s;
-    transition: all 2s 4s ease-in-out;
+    
 }
 
 .text_container > span:nth-child(3){
     animation-delay:0.45s;
-    transition: all 2s 4s ease-in-out;
+    
 }
 .text_container > span:nth-child(4){
     animation-delay:0.65s;
-    transition: all 2s 4s ease-in-out;
+    
 }
 .text_container > span:nth-child(5){
     animation-delay:0.85s;
-    transition: all 2s 4s ease-in-out;
+    
 }
 .text_container > span:nth-child(6){
     animation-delay:1s;
@@ -219,12 +224,12 @@ video{
 
 
 @media screen and (max-width:960px) {
-    
+    .mobile_image{
+        display:block;
+        width: 100%;
+    }
     .text_container span{
         font-size: 5rem;
-    }
-    video{
-        width:400px;
     }
     .we_have_come{
         font-size:1rem;
@@ -233,6 +238,10 @@ video{
         margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 10px;
+        color:white;
+        background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
 
 }
@@ -241,15 +250,22 @@ video{
     .text_container span{
         font-size: 3.5rem;
     }
+    .hero_inner{
+        /* background-image: url("/public/book_bronze_AdobeExpress.gif"); */
+        background: center / cover no-repeat url("/public/book_bronze_AdobeExpress.gif");
+        box-shadow: inset 58em 17em 4rem rgba(0,0,0,0.5);
+    }
+    .hero_container video{
+        width:100%;
+        display:none;
+    }
 }
 
 @media screen and (max-width:600px){
     .text_container span{
         font-size: 2.6rem;
     }
-    video{
-        width:100%;
-    }
+    
 }
 
 

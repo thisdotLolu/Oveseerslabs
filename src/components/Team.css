@@ -7,11 +7,15 @@
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-    
+    margin-top: 100px;
 }
 
 .team_inner h1{
+    font-size: 2rem;
     text-align: center;
+}
+.team_inner .underline{
+    margin-top: 0px;
 }
 .team_each{
     background-color: #252525;
@@ -22,16 +26,18 @@
     display: flex;
     flex-direction: column;
     /* justify-content:center; */
-    align-items: flex-start;
+    align-items: center;
     word-spacing: 5px;
     line-height: 18px;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 
 .team_each img{
     width:50px;
     height:50px;
     border-radius: 50%;
+    margin-bottom: 10px;
+    /* object-fit: contain; */
 }
 .team_each:hover{
     border: 1px solid #8f80b9;

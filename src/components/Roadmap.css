@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    box-shadow: 2px 2px 20px #bf40bf;
+    box-shadow: 2px 2px 20px #8f80b9;
     border-radius: 20px;
     margin-bottom: 40px;
 }
@@ -15,15 +15,19 @@
 .roadmap_container{
     max-width: 1200px;
     margin: 0 auto;
+    margin-top:100px;
 }
 
-.q3 video, .q4 video,.q4-2 video{
-    width:45vw;
+.q3 img, .q4 img,.q4-2 img{
+    width:100%;
     height:80vh;
+    object-fit: contain;
 }
 
 .roadmap_inner h1{
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
 
 
@@ -34,24 +38,29 @@
 
 .q3_inner, .q4-2_inner,.q4_inner{
     background-color: #272727;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;    
+    padding: 20px;
+    /* margin-left: 30px; */
 }
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:825px){
 .q3, .q4, .q4-2{
     flex-direction: column;
+
 }
-.q3 video, .q4 video,.q4-2 video{
+.q3 img, .q4 img,.q4-2 img{
     width: 90vw;
     height: 40vh;
+    object-fit: contain;
 }
 .q3_inner, .q4-2_inner,.q4_inner{
     width: 100%;
     border-radius: 0;
+    height: 100%;
 }
 }
 

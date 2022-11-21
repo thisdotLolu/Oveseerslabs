@@ -8,6 +8,7 @@ const Showcase = () => {
   return (
     <div className='showcase_container'>
         <div className='showcase_inner'>
+          <h1>SNEAK PEAK</h1>
         <div className='showcase_top'>
         <video
         muted

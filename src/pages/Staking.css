@@ -1,0 +1,9 @@
+.staking_container{
+    margin-top: 100px;
+}
+
+.staking_inner .hero_inner{
+    /* background-image: url("/public/book_bronze_AdobeExpress.gif"); */
+    background: center / contain no-repeat url("/public/book_silver_AdobeExpress.gif");
+    box-shadow: inset 58em 17em 4rem rgba(0,0,0,0.5);
+}
