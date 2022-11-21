@@ -1,11 +1,11 @@
 import React from 'react'
 import './Roadmap.css'
-import Zoom from 'react-reveal/Zoom'
+
 
 
 const Roadmap = () => {
   return (
-    <Zoom>
+   
         <div className='roadmap_container'>
         <div className='roadmap_inner'>
            <h1>ROAD MAP</h1>
@@ -76,7 +76,7 @@ const Roadmap = () => {
             
         </div>
     </div>
-    </Zoom>
+   
   )
 }
 

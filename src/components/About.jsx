@@ -1,14 +1,13 @@
 import './About.css'
 import React from 'react'
 import Video from './Video'
-import Zoom from 'react-reveal/Zoom'
+
 
 
 
 
 const About = () => {
   return (
-    <Zoom>
     <div className='about_container'>
         <div className='about_inner'>
             <div className='about_top_left'>
@@ -122,7 +121,7 @@ const About = () => {
             </div> 
         </div>
     </div>
-    </Zoom>
+    
   )
 }
 

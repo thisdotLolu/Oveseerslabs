@@ -1,11 +1,11 @@
 import React from 'react'
 import './Team.css'
-import Zoom from 'react-reveal/Zoom'
+
 
 
 const Team = () => {
   return (
-    <Zoom>
+  
         <div className='team_container'>
         <div className='team_inner'>  
         <h1>
@@ -97,7 +97,7 @@ I also love music, any type of music.</p>
             </div>
         </div>
     </div>
-</Zoom>
+
   )
 }
 

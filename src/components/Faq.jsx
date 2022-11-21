@@ -8,13 +8,13 @@ import {
     Box,
   } from '@chakra-ui/react'
 import './Faq.css'
-import Zoom from 'react-reveal/Zoom'
+
 
 
 
 const Faq = () => {
   return (
-    <Zoom>
+    
       <div className='faq_container'>
     <div className='faq_inner'>
         <div className='header'>
@@ -152,7 +152,7 @@ Holders | Setup Cost: Hold 1 TOME NFT | Monthly Subscription: 1 SOL/mo
 In case your question wasn't answered above, please let us know via a Support Ticket over at our <a href='https://discord.gg/BNEAYauekZ'>Discord Channel</a>
 </div>
     </div>
-    </Zoom>
+  
     
   )
 }
