@@ -8,13 +8,12 @@ const Showcase = () => {
   return (
     <div className='showcase_container'>
         <div className='showcase_inner'>
-          <h1>SNEAK PEAK</h1>
         <div className='showcase_top'>
         <video
         muted
         autoPlay
                 loop
-                // controls
+                controls
                 src='./Videos/book_silver.mp4'
                 type="video/mp4"
             />
@@ -22,7 +21,7 @@ const Showcase = () => {
               muted
                 loop
                 autoPlay
-                // controls
+                controls
                 src='./Videos/book_red.mp4'
                 type="video/mp4"
             />
@@ -32,15 +31,14 @@ const Showcase = () => {
         muted 
         autoPlay
                 loop
-                // controls
+                controls
                 src='./Videos/book_bronze.mp4'
                 type="video/mp4"
             />
         <video
-        muted
-        autoPlay
+       
                 loop
-                // controls
+                controls
                 src='./Videos/book_gold.mp4'
                 type="video/mp4"
             />

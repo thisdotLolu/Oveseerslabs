@@ -73,6 +73,13 @@ I love to solve problems.
 I’m interested in web3 marketing as well, I’ve worked as a digital marketer in the past. 
 I also love music, any type of music.</p>
                 </div>
+                <div className='team_each marcel'>
+                <img src='/logo_blue.jpg'
+                alt='pfp'
+                />
+                    <b>Marcel</b>
+                    <p>My name is marcel, and a professional designer, with years of experience in the design industry, Specializing in creating thrilling and engaging graphic content for Projects looking to have good creative content that has professionalism as a key trait.</p>
+                </div>
                 <div className='team_each noizce'>
                 <img src='/logo_blue.jpg'
                 alt='pfp'
@@ -93,6 +100,13 @@ I also love music, any type of music.</p>
                 />
                 <b>Moore</b>
                 <p>As a productive community administrator over the years, I have moulded a strong reputation for myself which has made me an expert with great experience in community moderating, Crypto Trading, NFT projects, Project management, and in Discord servers.</p>
+                </div> 
+                <div className='team_each stevetech'>
+                <img src='/logo_blue.jpg'
+                alt='pfp'
+                />
+                <b>Steve Tech</b>
+                <p>My name is Stevetech, and I am a professional freelance content writer, designer, and whitepaper writer with extensive experience in community moderation. I have extensive experience connecting people and obtaining quality development and progress for all of my projects. I have extensive experience dealing with Crypto, NFTs, and Blockchain projects, all of which have been completed successfully. I give my all to all of my projects and work hard to push them to the top of the market.</p>
                 </div> 
             </div>
         </div>

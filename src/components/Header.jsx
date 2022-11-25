@@ -26,13 +26,13 @@ const Header = () => {
                         <Link to='/' onClick={closeNav}  className='nav-link'>INFO</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/staking' onClick={closeNav} className='nav-link'>STAKING</Link>
-                    </li>
-                    <li className='nav-item'>
                         <Link to='/utilities' onClick={closeNav} className='nav-link'>UTILITIES</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/gallery' onClick={closeNav} className='nav-link'>SNEAK PEAKS</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='https://overseers-labs.gitbook.io/overseers-labs/' onClick={closeNav} className='nav-link'>GITBOOK</a>
                     </li>
                     <li className='twitter'>
                         <a href='https://twitter.com/Overseers_Labs'><FaTwitter/></a>

@@ -1,25 +1,25 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import { useRef } from 'react'
 
 const Video = ({source}) => {
-    const videoRef=useRef(null)
-    const[isPlaying,setIsPlaying]=useState(false)
+    // const videoRef=useRef(null)
+    // const[isPlaying,setIsPlaying]=useState(false)
 
-    const playVideo = () => {
-        videoRef.current.play();
-        setIsPlaying(true);
-    };
+    // const playVideo = () => {
+    //     videoRef.current.play();
+    //     setIsPlaying(true);
+    // };
   return (
     <div className='video_container'>
                 <video
                 loop
-                ref={videoRef}
+                muted
                 // controls
-                // autoPlay={true}
+                autoPlay
                 src={source}
                 type="video/mp4"
             />
-              {!isPlaying && (
+              {/* {!isPlaying && (
                 <div className='video_overlay'>
                     <div className='video_overlay_inner'>
                         <svg
@@ -46,7 +46,7 @@ const Video = ({source}) => {
                         </svg>
                     </div>
                 </div>
-            )}
+            )} */}
             </div>
   )
 }
