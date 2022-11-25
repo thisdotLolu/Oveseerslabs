@@ -10,17 +10,14 @@ const Showcase = () => {
         <div className='showcase_inner'>
         <div className='showcase_top'>
         <video
-        muted
-        autoPlay
                 loop
                 controls
                 src='./Videos/book_silver.mp4'
                 type="video/mp4"
             />
         <video
-              muted
+              
                 loop
-                autoPlay
                 controls
                 src='./Videos/book_red.mp4'
                 type="video/mp4"
@@ -28,8 +25,7 @@ const Showcase = () => {
         </div>
         <div className='showcase_bottom'>
         <video
-        muted 
-        autoPlay
+      
                 loop
                 controls
                 src='./Videos/book_bronze.mp4'

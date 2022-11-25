@@ -4,3 +4,43 @@
     padding: 10px;
 }
 
+
+
+.footer .copyright{
+    /* border-top: 1px solid red; */
+    position: relative;
+    bottom: 0;
+    padding-top: 50px;
+    width: 98%;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.twitter_footer{
+    font-size: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.discord_footer{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin:10px;
+}
+
+.twitter_footer:hover{
+    font-size: 1.7rem;
+    transition: all .2s ease-in-out .2s;
+    color:#1d9bf0
+}
+.discord_footer:hover{
+    font-size: 1.9rem;
+    transition: all .2s ease-in-out .2s;
+    color:#8F80B9;
+}
+/* .social_icons */

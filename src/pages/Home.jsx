@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../components/About'
 import Faq from '../components/Faq'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Roadmap from '../components/Roadmap'
 import Showcase from '../components/Showcase'
@@ -15,7 +16,8 @@ const Home = () => {
       <Roadmap/>
       <Team/>
       <Faq/>
-        </div>
+      <Footer/>
+      </div>
     </div>
   )
 }

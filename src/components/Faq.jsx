@@ -73,7 +73,7 @@ const Faq = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-    A full breakdown of current and future gen 1 utilities can be found <a href='https://discordapp.com/channels/968725854068822057/1013191519433408644/1020241456415387668'>here</a>
+    A full breakdown of current and future gen 1 utilities can be found <a style={{textDecoration:"underline"}} href='https://overseers-labs.gitbook.io/overseers-labs/sight-map-v-1.0/gen-1-incentives'>here</a>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem
@@ -151,7 +151,7 @@ Holders | Setup Cost: Hold 1 TOME NFT | Monthly Subscription: 1 SOL/mo
         <div className='incase_unanswered'>
 In case your question wasn't answered above, please let us know via a Support Ticket over at our <a href='https://discord.gg/BNEAYauekZ'>Discord Channel</a>
 </div>
-    </div>
+</div>
   
     
   )
